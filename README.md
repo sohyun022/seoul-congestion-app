@@ -11,10 +11,10 @@
 
 ## 데모
 
-<img width="500" alt="스크린샷 2025-01-28 오전 6 30 04" src="https://github.com/user-attachments/assets/c0b007b5-0396-41b3-98e6-da68ec864147" />
-<img width="500" alt="스크린샷 2025-01-28 오전 6 32 13" src="https://github.com/user-attachments/assets/93d8bc6e-412a-4935-889b-4eea45ad87a7" />
+<img width="500" alt="demo 1" src="https://github.com/user-attachments/assets/c0b007b5-0396-41b3-98e6-da68ec864147" />
+<img width="500" alt="demo 2" src="https://github.com/user-attachments/assets/93d8bc6e-412a-4935-889b-4eea45ad87a7" />
 
-<img width="500" alt="스크린샷 2025-01-28 오전 6 41 45" src="https://github.com/user-attachments/assets/f475304d-1ca1-43ff-afd9-46d5af6aa4d6" />
+<img width="500" alt="demo 3" src="https://github.com/user-attachments/assets/f475304d-1ca1-43ff-afd9-46d5af6aa4d6" />
 
 ## 기술 스택
 

@@ -9,12 +9,8 @@
 - **혼잡도 예측 데이터**: 향후 12시간 동안의 예측 혼잡도를 차트 형태로 확인할 수 있습니다.
 - **인터랙티브 지도**: 선택한 지역의 위치를 카카오 지도에서 확인할 수 있습니다.
 
-## 데모
-
-<img width="500" alt="demo 1" src="https://github.com/user-attachments/assets/c0b007b5-0396-41b3-98e6-da68ec864147" />
-<img width="500" alt="demo 2" src="https://github.com/user-attachments/assets/93d8bc6e-412a-4935-889b-4eea45ad87a7" />
-
-<img width="500" alt="demo 3" src="https://github.com/user-attachments/assets/f475304d-1ca1-43ff-afd9-46d5af6aa4d6" />
+## 데모  비디오
+![demo video](https://github.com/user-attachments/assets/22249dea-d9b1-4ca2-a72c-563306e09037)
 
 ## 기술 스택
 
@@ -41,13 +37,11 @@
    cd seoul-congestion-app
    ```
 
-## 설치 방법
-
-### 2. application.properties 설정
+2. **application.properties 설정**
 
 `src/main/resources/` 디렉토리에 `application.properties` 파일을 생성하고 다음 내용을 추가하세요:
 
-```application.properties
+```properties
   spring.application.name=seoul-congestion
   seoul.api.base-url=http://openapi.seoul.go.kr:8088
   seoul.api.request-type=json
@@ -59,7 +53,7 @@
   kakao.api.key=YOUR_KAKAO_API_KEY
 ```
 
-### 3. 애플리케이션 빌드
+3. **애플리케이션 빌드**
 
 빌드된 `.jar` 파일을 사용하여 애플리케이션을 실행합니다:
 
@@ -67,6 +61,6 @@
 java -jar build/libs/seoul-congestion-app.jar
 ```
 
-### 5. 웹 애플리케이션 접속
+5. **웹 애플리케이션 접속**
 브라우저에서 `http://localhost:8080`을 열어 애플리케이션을 실행합니다.
 

@@ -9,8 +9,8 @@
 - **혼잡도 예측 데이터**: 향후 12시간 동안의 예측 혼잡도를 차트 형태로 확인할 수 있습니다.
 - **인터랙티브 지도**: 선택한 지역의 위치를 카카오 지도에서 확인할 수 있습니다.
 
-## 데모  비디오
-![demo video](https://github.com/user-attachments/assets/22249dea-d9b1-4ca2-a72c-563306e09037)
+## 데모 영상
+![demo gif](https://github.com/user-attachments/assets/22249dea-d9b1-4ca2-a72c-563306e09037)
 
 ## 기술 스택
 

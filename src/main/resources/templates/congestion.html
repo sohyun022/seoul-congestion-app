@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seoul Population Congestion Information</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=868786b97f4226f57be89bc83d3d51c7"></script>
+
+</head>
+<body>
+<div class="container">
+  <h1>Seoul Population Congestion Information</h1>
+
+  <!-- Input form -->
+  <form id="searchForm">
+    <div class="autocomplete-container">
+      <input type="text" id="areaName" name="areaName" required placeholder="Enter The Area Name">
+      <div class="autocomplete-list"></div>
+      <button type="submit">Search</button>
+    </div>
+  </form>
+
+  <!-- Error or Result display -->
+  <div id="result" style=" align-content: center"></div>
+
+  <!-- Forecast Chart -->
+  <div id="forecast-section">
+    <h3>Forecast Congestion</h3>
+    <canvas id="forecastChart"></canvas>
+  </div>
+
+  <!-- Map -->
+  <div id="map-section">
+    <h3>Traffic Map</h3>
+    <div id="map"></div>
+  </div>
+
+</div>
+</body>
+<script src="/app.js"></script>
+</html>
+
+
+
